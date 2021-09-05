@@ -1,0 +1,5 @@
+Sample Image Shape : (225, 225)
+Sample Image Shape after applying a Convolutional layer : (219, 219, 18)
+Sample Image Shape after applying a MaxPool layer : (54, 54, 18)
+Softmax prediction outputs : [0.09999984 0.10000563 0.09999005 0.10006606 0.10001114 0.09999569
+ 0.09998283 0.10004312 0.09995576 0.09994989]
