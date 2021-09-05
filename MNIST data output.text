@@ -1,0 +1,86 @@
+Imported MNIST data and split it into train and test to try our CNN model on it . . .
+Defined the filter_size as 3 and num_filters as 8 for Convolutional layer,Defined the filter_size as 2 for MaxPool layer,Defined the input_node as 1352 and softmax_node as 10 for Softmax layer
+Training the CNN . . .
+Epoch 1 --->
+1 steps out of 100 steps: Average loss 0.000 and Accuracy: 0%
+101 steps out of 100 steps: Average loss 2.260 and Accuracy: 19%
+201 steps out of 100 steps: Average loss 2.041 and Accuracy: 30%
+301 steps out of 100 steps: Average loss 1.636 and Accuracy: 48%
+401 steps out of 100 steps: Average loss 1.078 and Accuracy: 68%
+501 steps out of 100 steps: Average loss 0.955 and Accuracy: 69%
+601 steps out of 100 steps: Average loss 0.899 and Accuracy: 72%
+701 steps out of 100 steps: Average loss 1.028 and Accuracy: 64%
+801 steps out of 100 steps: Average loss 0.784 and Accuracy: 77%
+901 steps out of 100 steps: Average loss 0.759 and Accuracy: 75%
+1001 steps out of 100 steps: Average loss 0.853 and Accuracy: 75%
+1101 steps out of 100 steps: Average loss 0.585 and Accuracy: 84%
+1201 steps out of 100 steps: Average loss 0.468 and Accuracy: 82%
+1301 steps out of 100 steps: Average loss 0.640 and Accuracy: 82%
+1401 steps out of 100 steps: Average loss 0.444 and Accuracy: 87%
+Epoch 2 --->
+1 steps out of 100 steps: Average loss 0.000 and Accuracy: 0%
+101 steps out of 100 steps: Average loss 0.426 and Accuracy: 87%
+201 steps out of 100 steps: Average loss 0.503 and Accuracy: 81%
+301 steps out of 100 steps: Average loss 0.445 and Accuracy: 89%
+401 steps out of 100 steps: Average loss 0.664 and Accuracy: 78%
+501 steps out of 100 steps: Average loss 0.543 and Accuracy: 83%
+601 steps out of 100 steps: Average loss 0.528 and Accuracy: 86%
+701 steps out of 100 steps: Average loss 0.478 and Accuracy: 86%
+801 steps out of 100 steps: Average loss 0.706 and Accuracy: 80%
+901 steps out of 100 steps: Average loss 0.510 and Accuracy: 86%
+1001 steps out of 100 steps: Average loss 0.509 and Accuracy: 84%
+1101 steps out of 100 steps: Average loss 0.413 and Accuracy: 90%
+1201 steps out of 100 steps: Average loss 0.422 and Accuracy: 86%
+1301 steps out of 100 steps: Average loss 0.281 and Accuracy: 94%
+1401 steps out of 100 steps: Average loss 0.455 and Accuracy: 85%
+Epoch 3 --->
+1 steps out of 100 steps: Average loss 0.000 and Accuracy: 0%
+101 steps out of 100 steps: Average loss 0.412 and Accuracy: 89%
+201 steps out of 100 steps: Average loss 0.434 and Accuracy: 89%
+301 steps out of 100 steps: Average loss 0.258 and Accuracy: 90%
+401 steps out of 100 steps: Average loss 0.363 and Accuracy: 89%
+501 steps out of 100 steps: Average loss 0.349 and Accuracy: 89%
+601 steps out of 100 steps: Average loss 0.414 and Accuracy: 88%
+701 steps out of 100 steps: Average loss 0.539 and Accuracy: 84%
+801 steps out of 100 steps: Average loss 0.402 and Accuracy: 90%
+901 steps out of 100 steps: Average loss 0.419 and Accuracy: 86%
+1001 steps out of 100 steps: Average loss 0.458 and Accuracy: 83%
+1101 steps out of 100 steps: Average loss 0.467 and Accuracy: 86%
+1201 steps out of 100 steps: Average loss 0.391 and Accuracy: 89%
+1301 steps out of 100 steps: Average loss 0.356 and Accuracy: 88%
+1401 steps out of 100 steps: Average loss 0.397 and Accuracy: 88%
+Epoch 4 --->
+1 steps out of 100 steps: Average loss 0.000 and Accuracy: 0%
+101 steps out of 100 steps: Average loss 0.312 and Accuracy: 90%
+201 steps out of 100 steps: Average loss 0.372 and Accuracy: 92%
+301 steps out of 100 steps: Average loss 0.476 and Accuracy: 87%
+401 steps out of 100 steps: Average loss 0.242 and Accuracy: 93%
+501 steps out of 100 steps: Average loss 0.430 and Accuracy: 88%
+601 steps out of 100 steps: Average loss 0.217 and Accuracy: 93%
+701 steps out of 100 steps: Average loss 0.338 and Accuracy: 91%
+801 steps out of 100 steps: Average loss 0.495 and Accuracy: 85%
+901 steps out of 100 steps: Average loss 0.454 and Accuracy: 89%
+1001 steps out of 100 steps: Average loss 0.340 and Accuracy: 86%
+1101 steps out of 100 steps: Average loss 0.371 and Accuracy: 87%
+1201 steps out of 100 steps: Average loss 0.190 and Accuracy: 96%
+1301 steps out of 100 steps: Average loss 0.359 and Accuracy: 90%
+1401 steps out of 100 steps: Average loss 0.397 and Accuracy: 87%
+Epoch 5 --->
+1 steps out of 100 steps: Average loss 0.000 and Accuracy: 0%
+101 steps out of 100 steps: Average loss 0.405 and Accuracy: 87%
+201 steps out of 100 steps: Average loss 0.288 and Accuracy: 93%
+301 steps out of 100 steps: Average loss 0.286 and Accuracy: 90%
+401 steps out of 100 steps: Average loss 0.224 and Accuracy: 90%
+501 steps out of 100 steps: Average loss 0.440 and Accuracy: 89%
+601 steps out of 100 steps: Average loss 0.155 and Accuracy: 96%
+701 steps out of 100 steps: Average loss 0.225 and Accuracy: 91%
+801 steps out of 100 steps: Average loss 0.315 and Accuracy: 89%
+901 steps out of 100 steps: Average loss 0.203 and Accuracy: 92%
+1001 steps out of 100 steps: Average loss 0.269 and Accuracy: 92%
+1101 steps out of 100 steps: Average loss 0.425 and Accuracy: 89%
+1201 steps out of 100 steps: Average loss 0.345 and Accuracy: 90%
+1301 steps out of 100 steps: Average loss 0.232 and Accuracy: 92%
+1401 steps out of 100 steps: Average loss 0.450 and Accuracy: 86%
+Testing the CNN . . .
+Test loss : 11.0
+Test accuracy : 0.85
